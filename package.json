@@ -1,0 +1,22 @@
+{
+  "name": "linguastart",
+  "version": "1.0.0",
+  "description": "Application d'apprentissage des langues russe et arménienne",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "mkdir -p dist && cp -r index.html css js data audio img armenian russian dist/",
+    "dev": "serve"
+  },
+  "keywords": [
+    "language",
+    "learning",
+    "russian",
+    "armenian"
+  ],
+  "author": "LinguaStart",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
