@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - Russe | LinguaStart</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lessons.css">
+    <link rel="stylesheet" href="../css/spaced-repetition.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="russian-theme">
+    <header>
+        <div class="logo">
+            <img src="../img/russian-flag.svg" alt="Drapeau russe" class="flag-icon">
+            <h1>LinguaStart - Russe</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="alphabet.html">Alphabet</a></li>
+                <li><a href="basic-vocabulary.html">Vocabulaire</a></li>
+                <li><a href="common-phrases.html">Phrases</a></li>
+                <li><a href="conversation.html">Conversation</a></li>
+                <li><a href="grammar-basics.html">Grammaire</a></li>
+                <li class="active"><a href="flashcards.html">Flashcards</a></li>
+            </ul>
+        </nav>
+        <div class="user-menu">
+            <button class="login-btn">Connexion</button>
+            <div class="user-profile" style="display: none;">
+                <img src="../img/default-avatar.svg" alt="Avatar" class="user-avatar">
+                <span class="user-name">Utilisateur</span>
+                <button class="logout-btn">Déconnexion</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>Flashcards - Russe</h1>
+            <p>Utilisez ces flashcards pour mémoriser le vocabulaire et les phrases en russe.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Mes flashcards à réviser</h2>
+            <p>Voici vos flashcards personnalisées à réviser aujourd'hui.</p>
+
+            <div class="spaced-repetition-cards">
+                <div class="revision-options">
+                    <div class="revision-time-options">
+                        <h4>Temps de révision disponible</h4>
+                        <div class="time-buttons">
+                            <button class="time-btn" data-time="5">5 min</button>
+                            <button class="time-btn" data-time="10">10 min</button>
+                            <button class="time-btn" data-time="15">15 min</button>
+                            <button class="time-btn" data-time="30">30 min</button>
+                            <button class="time-btn active" data-time="0">Sans limite</button>
+                        </div>
+                    </div>
+                    <div class="revision-level-options">
+                        <h4>Niveau d'apprentissage</h4>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-level="debutant">Débutant</button>
+                            <button class="level-btn" data-level="intermediaire">Intermédiaire</button>
+                            <button class="level-btn" data-level="avance">Avancé</button>
+                            <button class="level-btn active" data-level="tous">Tous niveaux</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="revision-cards">
+                    <!-- Les cartes de révision seront générées par JavaScript -->
+                    <p class="no-cards-message">Connectez-vous pour accéder à votre programme de révision personnalisé.</p>
+                </div>
+                <button class="start-revision" disabled>Commencer la révision</button>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Catégories de flashcards</h2>
+            <p>Choisissez une catégorie pour pratiquer avec des flashcards.</p>
+
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h3>Alphabet</h3>
+                    <p>Apprenez l'alphabet cyrillique avec ces flashcards.</p>
+                    <a href="alphabet.html#flashcards" class="btn primary">Pratiquer</a>
+                </div>
+                <div class="category-card">
+                    <h3>Vocabulaire de base</h3>
+                    <p>Mémorisez le vocabulaire essentiel en russe.</p>
+                    <a href="basic-vocabulary.html#flashcards" class="btn primary">Pratiquer</a>
+                </div>
+                <div class="category-card">
+                    <h3>Phrases courantes</h3>
+                    <p>Apprenez les phrases les plus utilisées en russe.</p>
+                    <a href="common-phrases.html#flashcards" class="btn primary">Pratiquer</a>
+                </div>
+                <div class="category-card">
+                    <h3>Situations de conversation</h3>
+                    <p>Pratiquez des phrases utiles pour des situations réelles.</p>
+                    <a href="conversation.html#flashcards" class="btn primary">Pratiquer</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Créer vos propres flashcards</h2>
+            <p>Connectez-vous pour créer et personnaliser vos propres flashcards.</p>
+
+            <div class="custom-flashcards">
+                <div class="login-prompt">
+                    <p>Vous devez être connecté pour créer des flashcards personnalisées.</p>
+                    <button class="login-btn-alt">Se connecter</button>
+                </div>
+                <div class="create-flashcard-form" style="display: none;">
+                    <h3>Nouvelle flashcard</h3>
+                    <form id="new-flashcard-form">
+                        <div class="form-group">
+                            <label for="flashcard-front">Mot/Phrase en russe:</label>
+                            <input type="text" id="flashcard-front" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="flashcard-back">Traduction en français:</label>
+                            <input type="text" id="flashcard-back" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="flashcard-example">Exemple d'utilisation (optionnel):</label>
+                            <input type="text" id="flashcard-example">
+                        </div>
+                        <button type="submit" class="btn primary">Ajouter à ma collection</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LinguaStart</h3>
+                <p>Application d'apprentissage des langues russe et arménienne</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="alphabet.html">Alphabet</a></li>
+                    <li><a href="basic-vocabulary.html">Vocabulaire</a></li>
+                    <li><a href="common-phrases.html">Phrases courantes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ressources</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contactez-nous</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 LinguaStart. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/auth.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/spaced-repetition.js"></script>
+    <script src="../js/revision-session.js"></script>
+    <script>
+        // Script spécifique à la page flashcards
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialiser le système de révision espacée
+            initSpacedRepetition();
+            
+            // Gérer le formulaire de création de flashcards
+            const newFlashcardForm = document.getElementById('new-flashcard-form');
+            if (newFlashcardForm) {
+                newFlashcardForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const front = document.getElementById('flashcard-front').value;
+                    const back = document.getElementById('flashcard-back').value;
+                    const example = document.getElementById('flashcard-example').value;
+                    
+                    // Ajouter la carte au système de révision
+                    addCardToRevision(front, back, null);
+                    
+                    // Réinitialiser le formulaire
+                    this.reset();
+                    
+                    // Afficher un message de confirmation
+                    alert('Flashcard ajoutée avec succès à votre collection!');
+                });
+            }
+            
+            // Gérer le bouton de connexion alternatif
+            const loginBtnAlt = document.querySelector('.login-btn-alt');
+            if (loginBtnAlt) {
+                loginBtnAlt.addEventListener('click', function() {
+                    // Simuler un clic sur le bouton de connexion principal
+                    document.querySelector('.login-btn').click();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

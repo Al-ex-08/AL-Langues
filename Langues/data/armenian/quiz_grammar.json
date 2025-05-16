@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur les bases de grammaire arménienne",
+  "questions": [
+    {
+      "question": "Quel est le pronom personnel pour 'Je' en arménien?",
+      "options": ["Դու", "Նա", "Ես", "Մենք"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel est l'ordre des mots standard en arménien?",
+      "options": ["Sujet-Verbe-Objet (SVO)", "Sujet-Objet-Verbe (SOV)", "Verbe-Sujet-Objet (VSO)", "Objet-Sujet-Verbe (OSV)"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment forme-t-on l'article défini en arménien?",
+      "options": ["En ajoutant un mot séparé avant le nom", "En ajoutant le suffixe -ը ou -ն au nom", "En modifiant la première lettre du nom", "L'arménien n'a pas d'articles définis"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de cas grammaticaux existe-t-il en arménien?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel cas utilise-t-on pour exprimer la possession en arménien?",
+      "options": ["Nominatif", "Génitif", "Datif", "Accusatif"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment dit-on 'Je suis étudiant' en arménien?",
+      "options": ["Ես ուսանող եմ:", "Ես եմ ուսանող:", "Ես ուսանող:", "Ես լինել ուսանող:"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel est le pronom personnel pour 'Nous' en arménien?",
+      "options": ["Դուք", "Նրանք", "Մենք", "Դու"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel suffixe utilise-t-on pour former l'article défini après une voyelle?",
+      "options": ["-ը", "-ն", "-ի", "-ին"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment dit-on 'Il/Elle est médecin' en arménien?",
+      "options": ["Նա բժիշկ է:", "Նա է բժիշկ:", "Նա բժիշկ:", "Նա լինել բժիշկ:"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Comment se forme le pluriel des noms en arménien?",
+      "options": ["En ajoutant -ներ ou -եր", "En ajoutant -ը ou -ն", "En ajoutant -ի ou -ու", "En modifiant la première voyelle"],
+      "correctAnswer": 0
+    }
+  ]
+}

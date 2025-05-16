@@ -1,0 +1,2 @@
+Ce fichier est un placeholder pour maintenir la structure du dossier.
+Les fichiers audio réels seront ajoutés ultérieurement.

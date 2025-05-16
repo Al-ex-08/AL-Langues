@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fond du cercle -->
+  <circle cx="50" cy="50" r="48" fill="#f0f0f0" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- Silhouette de la tête -->
+  <circle cx="50" cy="40" r="20" fill="#bbbbbb"/>
+  
+  <!-- Silhouette du corps -->
+  <path d="M50,60 C66,60 75,75 80,95 L20,95 C25,75 34,60 50,60 Z" fill="#bbbbbb"/>
+</svg>

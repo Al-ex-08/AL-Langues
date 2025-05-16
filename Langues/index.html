@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprentissage du Russe et de l'Arménien</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/lessons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>LinguaStart</h1>
+            <p>Apprenez le russe et l'arménien en partant de zéro</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Découvrez de nouvelles langues</h2>
+                <p>Une méthode simple et efficace pour apprendre le russe et l'arménien, spécialement conçue pour les francophones.</p>
+                <div class="cta-buttons">
+                    <a href="#start-learning" class="btn primary">Commencer maintenant</a>
+                    <a href="#how-it-works" class="btn secondary">Comment ça marche</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="start-learning" class="language-selection">
+            <h2>Choisissez votre langue</h2>
+            <div class="language-cards">
+                <div class="language-card" id="russian">
+                    <div class="card-header">
+                        <img src="img/russian-flag.svg" alt="Drapeau russe" class="flag">
+                        <h3>Russe</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Apprenez l'alphabet cyrillique, le vocabulaire de base et les expressions courantes en russe.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Alphabet cyrillique</li>
+                            <li><i class="fas fa-check"></i> Prononciation audio</li>
+                            <li><i class="fas fa-check"></i> Vocabulaire essentiel</li>
+                            <li><i class="fas fa-check"></i> Exercices interactifs</li>
+                        </ul>
+                        <a href="russian/index.html" class="btn primary">Commencer</a>
+                    </div>
+                </div>
+
+                <div class="language-card" id="armenian">
+                    <div class="card-header">
+                        <img src="img/armenian-flag.svg" alt="Drapeau arménien" class="flag">
+                        <h3>Arménien</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Découvrez l'alphabet arménien, apprenez les bases de la langue et les expressions utiles.</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Alphabet arménien</li>
+                            <li><i class="fas fa-check"></i> Prononciation audio</li>
+                            <li><i class="fas fa-check"></i> Vocabulaire essentiel</li>
+                            <li><i class="fas fa-check"></i> Exercices interactifs</li>
+                        </ul>
+                        <a href="armenian/index.html" class="btn primary">Commencer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>Comment fonctionne notre méthode</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>1. Apprenez l'alphabet</h3>
+                    <p>Commencez par maîtriser l'alphabet et la prononciation de base.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <h3>2. Vocabulaire essentiel</h3>
+                    <p>Acquérez le vocabulaire de base organisé par thèmes pratiques.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>3. Exercices interactifs</h3>
+                    <p>Renforcez vos connaissances avec des quiz et des flashcards.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>4. Révision espacée</h3>
+                    <p>Consolidez votre apprentissage grâce à notre système de révision intelligente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À propos de LinguaStart</h2>
+            <p>LinguaStart est une application conçue pour aider les francophones à apprendre le russe et l'arménien en partant de zéro. Notre méthode est basée sur les dernières recherches en neurosciences et en apprentissage des langues pour vous offrir une expérience efficace et agréable.</p>
+            <p>Que vous souhaitiez apprendre pour le travail, les voyages ou par passion pour les langues, notre approche progressive vous permettra d'acquérir des compétences linguistiques solides.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>LinguaStart</h2>
+                <p>Apprenez le russe et l'arménien facilement</p>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#start-learning">Commencer</a></li>
+                    <li><a href="#how-it-works">Méthode</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LinguaStart. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts de l'application -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/firebase-storage.js"></script>
+    <script src="js/firebase-sync.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Scripts de l'application -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/firebase-storage.js"></script>
+    <script src="js/firebase-sync.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/quiz-review.js"></script>
+    <script src="js/spaced-repetition.js"></script>
+    <script src="js/vocabulary.js"></script>
+    <script src="js/lessons.js"></script>
+</body>
+</html>

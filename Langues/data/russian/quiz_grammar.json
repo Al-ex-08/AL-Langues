@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur les bases de grammaire russe",
+  "questions": [
+    {
+      "question": "Quel est le pronom personnel pour 'Je' en russe?",
+      "options": ["Ты", "Он", "Я", "Мы"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel est le genre du mot 'книга' (livre)?",
+      "options": ["Masculin", "Féminin", "Neutre", "Pas de genre"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment reconnaît-on généralement un nom neutre en russe?",
+      "options": ["Il se termine par une consonne", "Il se termine par -а ou -я", "Il se termine par -о ou -е", "Il se termine par -й"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Combien de cas grammaticaux existe-t-il en russe?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel cas utilise-t-on pour exprimer la possession en russe?",
+      "options": ["Nominatif", "Génitif", "Datif", "Accusatif"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment dit-on 'Je suis étudiant' en russe?",
+      "options": ["Я студент.", "Я есть студент.", "Я быть студент.", "Я студентом."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel est le pronom personnel pour 'Nous' en russe?",
+      "options": ["Вы", "Они", "Мы", "Ты"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel cas utilise-t-on après la préposition 'в' (dans) quand on indique un lieu où l'on va?",
+      "options": ["Nominatif", "Génitif", "Accusatif", "Prépositionnel"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Elle est médecin' en russe?",
+      "options": ["Она врач.", "Она есть врач.", "Она врачом.", "Она быть врач."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel est le genre du mot 'окно' (fenêtre)?",
+      "options": ["Masculin", "Féminin", "Neutre", "Pas de genre"],
+      "correctAnswer": 2
+    }
+  ]
+}

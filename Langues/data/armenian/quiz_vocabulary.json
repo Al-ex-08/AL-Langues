@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur le vocabulaire de base arménien",
+  "questions": [
+    {
+      "question": "Comment dit-on 'Bonjour' (formel) en arménien?",
+      "options": ["Բարև", "Բարև ձեզ", "Շնորհակալություն", "Ցտեսություն"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que signifie 'Շնորհակալություն'?",
+      "options": ["Bonjour", "Au revoir", "Merci", "S'il vous plaît"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Oui' en arménien?",
+      "options": ["Ոչ", "Այո", "Լավ", "Խնդրեմ"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel est le mot arménien pour 'Je/Moi'?",
+      "options": ["Դու", "Նա", "Ես", "Մենք"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Deux' en arménien?",
+      "options": ["Մեկ", "Երկու", "Երեք", "Չորս"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que signifie 'Ներեցեք'?",
+      "options": ["Bonjour", "Merci", "Excusez-moi", "Au revoir"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Nous' en arménien?",
+      "options": ["Ես", "Դու", "Նրանք", "Մենք"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Quel est le mot arménien pour 'Cinq'?",
+      "options": ["Երեք", "Չորս", "Հինգ", "Վեց"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Au revoir' (formel) en arménien?",
+      "options": ["Բարև", "Ցտեսություն", "Բարի գիշեր", "Բարև ձեզ"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que signifie 'Լավ'?",
+      "options": ["Bonjour", "Merci", "Bien/D'accord", "Au revoir"],
+      "correctAnswer": 2
+    }
+  ]
+}

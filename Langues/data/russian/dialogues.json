@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dialogue1",
+    "title": "Rencontre",
+    "lines": [
+      {
+        "speaker": "Анна",
+        "text": "Здравствуйте! Как вас зовут?",
+        "translation": "Bonjour ! Comment vous appelez-vous ?",
+        "audio": "../audio/russian/dialogue1-1.mp3"
+      },
+      {
+        "speaker": "Пьер",
+        "text": "Меня зовут Пьер. А вас?",
+        "translation": "Je m'appelle Pierre. Et vous ?",
+        "audio": "../audio/russian/dialogue1-2.mp3"
+      },
+      {
+        "speaker": "Анна",
+        "text": "Меня зовут Анна. Очень приятно.",
+        "translation": "Je m'appelle Anna. Enchanté.",
+        "audio": "../audio/russian/dialogue1-3.mp3"
+      },
+      {
+        "speaker": "Пьер",
+        "text": "Вы говорите по-французски?",
+        "translation": "Parlez-vous français ?",
+        "audio": "../audio/russian/dialogue1-4.mp3"
+      },
+      {
+        "speaker": "Анна",
+        "text": "Да, немного. Я изучаю французский язык.",
+        "translation": "Oui, un peu. J'apprends le français.",
+        "audio": "../audio/russian/dialogue1-5.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dialogue2",
+    "title": "Au café",
+    "lines": [
+      {
+        "speaker": "Официант",
+        "text": "Добрый день! Что вы будете заказывать?",
+        "translation": "Bonjour ! Que voulez-vous commander ?",
+        "audio": "../audio/russian/dialogue2-1.mp3"
+      },
+      {
+        "speaker": "Клиент",
+        "text": "Я хотел бы чашку кофе, пожалуйста.",
+        "translation": "Je voudrais une tasse de café, s'il vous plaît.",
+        "audio": "../audio/russian/dialogue2-2.mp3"
+      },
+      {
+        "speaker": "Официант",
+        "text": "С молоком или без?",
+        "translation": "Avec du lait ou sans ?",
+        "audio": "../audio/russian/dialogue2-3.mp3"
+      },
+      {
+        "speaker": "Клиент",
+        "text": "С молоком, пожалуйста. И один круассан.",
+        "translation": "Avec du lait, s'il vous plaît. Et un croissant.",
+        "audio": "../audio/russian/dialogue2-4.mp3"
+      },
+      {
+        "speaker": "Официант",
+        "text": "Хорошо. Что-нибудь ещё?",
+        "translation": "Bien. Autre chose ?",
+        "audio": "../audio/russian/dialogue2-5.mp3"
+      },
+      {
+        "speaker": "Клиент",
+        "text": "Нет, спасибо. Это всё.",
+        "translation": "Non, merci. C'est tout.",
+        "audio": "../audio/russian/dialogue2-6.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dialogue3",
+    "title": "Demander son chemin",
+    "lines": [
+      {
+        "speaker": "Турист",
+        "text": "Извините, вы не подскажете, где находится Красная площадь?",
+        "translation": "Excusez-moi, pourriez-vous me dire où se trouve la Place Rouge ?",
+        "audio": "../audio/russian/dialogue3-1.mp3"
+      },
+      {
+        "speaker": "Прохожий",
+        "text": "Да, конечно. Идите прямо по этой улице, затем поверните налево.",
+        "translation": "Oui, bien sûr. Allez tout droit dans cette rue, puis tournez à gauche.",
+        "audio": "../audio/russian/dialogue3-2.mp3"
+      },
+      {
+        "speaker": "Турист",
+        "text": "А далеко ли идти?",
+        "translation": "Est-ce loin ?",
+        "audio": "../audio/russian/dialogue3-3.mp3"
+      },
+      {
+        "speaker": "Прохожий",
+        "text": "Нет, это примерно 10 минут пешком.",
+        "translation": "Non, c'est à environ 10 minutes à pied.",
+        "audio": "../audio/russian/dialogue3-4.mp3"
+      },
+      {
+        "speaker": "Турист",
+        "text": "Большое спасибо!",
+        "translation": "Merci beaucoup !",
+        "audio": "../audio/russian/dialogue3-5.mp3"
+      },
+      {
+        "speaker": "Прохожий",
+        "text": "Не за что. Приятной прогулки!",
+        "translation": "De rien. Bonne promenade !",
+        "audio": "../audio/russian/dialogue3-6.mp3"
+      }
+    ]
+  }
+]

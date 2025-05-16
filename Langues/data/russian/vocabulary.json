@@ -1,0 +1,122 @@
+[
+  {
+    "front": "Здравствуйте",
+    "back": "Bonjour (formel)",
+    "example": "Здравствуйте, как дела?",
+    "audio": "../audio/russian/zdravstvuyte.mp3"
+  },
+  {
+    "front": "Привет",
+    "back": "Salut (informel)",
+    "example": "Привет, как дела?",
+    "audio": "../audio/russian/privet.mp3"
+  },
+  {
+    "front": "Спасибо",
+    "back": "Merci",
+    "example": "Спасибо за помощь.",
+    "audio": "../audio/russian/spasibo.mp3"
+  },
+  {
+    "front": "Пожалуйста",
+    "back": "S'il vous plaît / Je vous en prie",
+    "example": "Пожалуйста, помогите мне.",
+    "audio": "../audio/russian/pozhaluysta.mp3"
+  },
+  {
+    "front": "Да",
+    "back": "Oui",
+    "example": "Да, я понимаю.",
+    "audio": "../audio/russian/da.mp3"
+  },
+  {
+    "front": "Нет",
+    "back": "Non",
+    "example": "Нет, я не знаю.",
+    "audio": "../audio/russian/nyet.mp3"
+  },
+  {
+    "front": "Извините",
+    "back": "Excusez-moi / Pardon",
+    "example": "Извините, я не говорю по-русски.",
+    "audio": "../audio/russian/izvinite.mp3"
+  },
+  {
+    "front": "Хорошо",
+    "back": "Bien / D'accord",
+    "example": "Хорошо, я понял.",
+    "audio": "../audio/russian/khorosho.mp3"
+  },
+  {
+    "front": "Я",
+    "back": "Je / Moi",
+    "example": "Я студент.",
+    "audio": "../audio/russian/ya.mp3"
+  },
+  {
+    "front": "Ты",
+    "back": "Tu / Toi (informel)",
+    "example": "Ты говоришь по-французски?",
+    "audio": "../audio/russian/ty.mp3"
+  },
+  {
+    "front": "Он",
+    "back": "Il",
+    "example": "Он мой друг.",
+    "audio": "../audio/russian/on.mp3"
+  },
+  {
+    "front": "Она",
+    "back": "Elle",
+    "example": "Она моя подруга.",
+    "audio": "../audio/russian/ona.mp3"
+  },
+  {
+    "front": "Мы",
+    "back": "Nous",
+    "example": "Мы из Франции.",
+    "audio": "../audio/russian/my.mp3"
+  },
+  {
+    "front": "Вы",
+    "back": "Vous",
+    "example": "Вы говорите по-русски?",
+    "audio": "../audio/russian/vy.mp3"
+  },
+  {
+    "front": "Они",
+    "back": "Ils / Elles",
+    "example": "Они студенты.",
+    "audio": "../audio/russian/oni.mp3"
+  },
+  {
+    "front": "Один",
+    "back": "Un",
+    "example": "Один момент, пожалуйста.",
+    "audio": "../audio/russian/odin.mp3"
+  },
+  {
+    "front": "Два",
+    "back": "Deux",
+    "example": "Мне нужно два билета.",
+    "audio": "../audio/russian/dva.mp3"
+  },
+  {
+    "front": "Три",
+    "back": "Trois",
+    "example": "У меня есть три брата.",
+    "audio": "../audio/russian/tri.mp3"
+  },
+  {
+    "front": "Четыре",
+    "back": "Quatre",
+    "example": "Четыре часа.",
+    "audio": "../audio/russian/chetyre.mp3"
+  },
+  {
+    "front": "Пять",
+    "back": "Cinq",
+    "example": "Пять минут.",
+    "audio": "../audio/russian/pyat.mp3"
+  }
+]

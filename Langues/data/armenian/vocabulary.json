@@ -1,0 +1,89 @@
+[
+  {
+    "front": "Բարև ձեզ",
+    "back": "Bonjour (formel)",
+    "example": "Բարև ձեզ, ինչպե՞ս եք:",
+    "audio": "../audio/armenian/barev_dzez.mp3"
+  },
+  {
+    "front": "Բարև",
+    "back": "Salut (informel)",
+    "example": "Բարև, ինչպե՞ս ես:",
+    "audio": "../audio/armenian/barev.mp3"
+  },
+  {
+    "front": "Շնորհակալություն",
+    "back": "Merci",
+    "example": "Շնորհակալություն օգնության համար:",
+    "audio": "../audio/armenian/shnorhakalutyun.mp3"
+  },
+  {
+    "front": "Խնդրեմ",
+    "back": "S'il vous plaît / Je vous en prie",
+    "example": "Խնդրեմ, օգնեք ինձ:",
+    "audio": "../audio/armenian/khndrem.mp3"
+  },
+  {
+    "front": "Այո",
+    "back": "Oui",
+    "example": "Այո, ես հասկանում եմ:",
+    "audio": "../audio/armenian/ayo.mp3"
+  },
+  {
+    "front": "Ոչ",
+    "back": "Non",
+    "example": "Ոչ, ես չգիտեմ:",
+    "audio": "../audio/armenian/voch.mp3"
+  },
+  {
+    "front": "Ներեցեք",
+    "back": "Excusez-moi / Pardon",
+    "example": "Ներեցեք, ես հայերեն չեմ խոսում:",
+    "audio": "../audio/armenian/neretseq.mp3"
+  },
+  {
+    "front": "Լավ",
+    "back": "Bien / D'accord",
+    "example": "Լավ, ես հասկացա:",
+    "audio": "../audio/armenian/lav.mp3"
+  },
+  {
+    "front": "Ես",
+    "back": "Je / Moi",
+    "example": "Ես ուսանող եմ:",
+    "audio": "../audio/armenian/yes.mp3"
+  },
+  {
+    "front": "Դու",
+    "back": "Tu / Toi (informel)",
+    "example": "Դու ֆրանսերեն խոսո՞ւմ ես:",
+    "audio": "../audio/armenian/du.mp3"
+  },
+  {
+    "front": "Նա",
+    "back": "Il / Elle",
+    "example": "Նա իմ ընկերն է:",
+    "audio": "../audio/armenian/na.mp3"
+  },
+  {
+    "front": "Մենք",
+    "back": "Nous",
+    "example": "Մենք Ֆրանսիայից ենք:",
+    "audio": "../audio/armenian/menq.mp3"
+  },
+  {
+    "front": "Դուք",
+    "back": "Vous",
+    "example": "Դուք հայերեն խոսո՞ւմ եք:",
+    "audio": "../audio/armenian/duq.mp3"
+  },
+  {
+    "front": "Նրանք",
+    "back": "Ils / Elles",
+    "example": "Նրանք ուսանողներ են:",
+    "audio": "../audio/armenian/nranq.mp3"
+  },
+  {
+    "front": "Մեկ",
+    "back": "Un",
+    "example": "Մեկ րոպե, խնդ

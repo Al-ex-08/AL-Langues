@@ -1,0 +1,74 @@
+[
+  {
+    "front": "Как вас зовут?",
+    "back": "Comment vous appelez-vous?",
+    "example": "Как вас зовут? Меня зовут Пьер.",
+    "audio": "../audio/russian/kak-vas-zavut.mp3"
+  },
+  {
+    "front": "Меня зовут...",
+    "back": "Je m'appelle...",
+    "example": "Меня зовут Анна.",
+    "audio": "../audio/russian/menya-zavut.mp3"
+  },
+  {
+    "front": "Откуда вы?",
+    "back": "D'où venez-vous?",
+    "example": "Откуда вы? Я из Франции.",
+    "audio": "../audio/russian/otkuda-vy.mp3"
+  },
+  {
+    "front": "Я из Франции.",
+    "back": "Je viens de France.",
+    "example": "Я из Франции. А вы?",
+    "audio": "../audio/russian/ya-iz-frantsii.mp3"
+  },
+  {
+    "front": "Я не понимаю.",
+    "back": "Je ne comprends pas.",
+    "example": "Извините, я не понимаю.",
+    "audio": "../audio/russian/ya-ne-ponimayu.mp3"
+  },
+  {
+    "front": "Говорите медленнее, пожалуйста.",
+    "back": "Parlez plus lentement, s'il vous plaît.",
+    "example": "Говорите медленнее, пожалуйста. Я учу русский язык.",
+    "audio": "../audio/russian/govorite-medlennee.mp3"
+  },
+  {
+    "front": "Можно меню, пожалуйста?",
+    "back": "Le menu, s'il vous plaît?",
+    "example": "Здравствуйте! Можно меню, пожалуйста?",
+    "audio": "../audio/russian/mozhno-menyu.mp3"
+  },
+  {
+    "front": "Я хотел бы заказать...",
+    "back": "Je voudrais commander...",
+    "example": "Я хотел бы заказать борщ и чай.",
+    "audio": "../audio/russian/ya-khotel-by-zakazat.mp3"
+  },
+  {
+    "front": "Счёт, пожалуйста.",
+    "back": "L'addition, s'il vous plaît.",
+    "example": "Счёт, пожалуйста. Спасибо.",
+    "audio": "../audio/russian/schyot-pozhaluysta.mp3"
+  },
+  {
+    "front": "Где находится...?",
+    "back": "Où se trouve...?",
+    "example": "Где находится Красная площадь?",
+    "audio": "../audio/russian/gde-nakhoditsya.mp3"
+  },
+  {
+    "front": "Как добраться до...?",
+    "back": "Comment aller à...?",
+    "example": "Как добраться до метро?",
+    "audio": "../audio/russian/kak-dobratsya-do.mp3"
+  },
+  {
+    "front": "Сколько стоит билет?",
+    "back": "Combien coûte le billet?",
+    "example": "Сколько стоит билет в музей?",
+    "audio": "../audio/russian/skolko-stoit-bilet.mp3"
+  }
+]

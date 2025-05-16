@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur l'alphabet cyrillique",
+  "questions": [
+    {
+      "question": "Quelle est la prononciation de la lettre 'А'?",
+      "options": ["[b]", "[a]", "[v]", "[g]"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Б'?",
+      "options": ["[b]", "[p]", "[d]", "[f]"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'В'?",
+      "options": ["[f]", "[w]", "[v]", "[b]"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quelle lettre cyrillique se prononce [g]?",
+      "options": ["Д", "Г", "П", "Ф"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle lettre cyrillique se prononce [d]?",
+      "options": ["Д", "Б", "В", "Г"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Е'?",
+      "options": ["[i]", "[e]", "[a]", "[o]"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle lettre cyrillique ressemble à un 'H' latin mais se prononce [n]?",
+      "options": ["Н", "И", "П", "Р"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quelle lettre cyrillique ressemble à un 'P' latin mais se prononce [r]?",
+      "options": ["П", "Р", "Ф", "Л"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'О'?",
+      "options": ["[a]", "[u]", "[o]", "[i]"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Combien de lettres compte l'alphabet cyrillique russe moderne?",
+      "options": ["26", "30", "33", "36"],
+      "correctAnswer": 2
+    }
+  ]
+}
