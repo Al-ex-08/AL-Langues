@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dialogue1",
+    "title": "Rencontre",
+    "lines": [
+      {
+        "speaker": "Անի",
+        "text": "Բարև Ձեզ! Ինչպե՞ս եք կոչվում:",
+        "translation": "Bonjour ! Comment vous appelez-vous ?",
+        "audio": "../audio/armenian/dialogue1-1.mp3"
+      },
+      {
+        "speaker": "Պիեռ",
+        "text": "Իմ անունը Պիեռ է: Իսկ Ձերը՞:",
+        "translation": "Je m'appelle Pierre. Et vous ?",
+        "audio": "../audio/armenian/dialogue1-2.mp3"
+      },
+      {
+        "speaker": "Անի",
+        "text": "Իմ անունը Անի է: Շատ հաճելի է:",
+        "translation": "Je m'appelle Ani. Enchanté.",
+        "audio": "../audio/armenian/dialogue1-3.mp3"
+      },
+      {
+        "speaker": "Պիեռ",
+        "text": "Դուք խոսո՞ւմ եք ֆրանսերեն:",
+        "translation": "Parlez-vous français ?",
+        "audio": "../audio/armenian/dialogue1-4.mp3"
+      },
+      {
+        "speaker": "Անի",
+        "text": "Այո, մի քիչ: Ես սովորում եմ ֆրանսերեն:",
+        "translation": "Oui, un peu. J'apprends le français.",
+        "audio": "../audio/armenian/dialogue1-5.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dialogue2",
+    "title": "Au café",
+    "lines": [
+      {
+        "speaker": "Մատուցող",
+        "text": "Բարի օր: Ի՞նչ կցանկանայիք պատվիրել:",
+        "translation": "Bonjour ! Que voulez-vous commander ?",
+        "audio": "../audio/armenian/dialogue2-1.mp3"
+      },
+      {
+        "speaker": "Հաճախորդ",
+        "text": "Մեկ բաժակ սուրճ, խնդրում եմ:",
+        "translation": "Une tasse de café, s'il vous plaît.",
+        "audio": "../audio/armenian/dialogue2-2.mp3"
+      },
+      {
+        "speaker": "Մատուցող",
+        "text": "Կաթո՞վ, թե՞ առանց:",
+        "translation": "Avec du lait ou sans ?",
+        "audio": "../audio/armenian/dialogue2-3.mp3"
+      },
+      {
+        "speaker": "Հաճախորդ",
+        "text": "Կաթով, խնդրում եմ: Եվ մեկ կրուասան:",
+        "translation": "Avec du lait, s'il vous plaît. Et un croissant.",
+        "audio": "../audio/armenian/dialogue2-4.mp3"
+      },
+      {
+        "speaker": "Մատուցող",
+        "text": "Լավ: Ուրիշ բա՞ն:",
+        "translation": "Bien. Autre chose ?",
+        "audio": "../audio/armenian/dialogue2-5.mp3"
+      },
+      {
+        "speaker": "Հաճախորդ",
+        "text": "Ոչ, շնորհակալություն: Դա բոլորն է:",
+        "translation": "Non, merci. C'est tout.",
+        "audio": "../audio/armenian/dialogue2-6.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dialogue3",
+    "title": "Demander son chemin",
+    "lines": [
+      {
+        "speaker": "Զբոսաշրջիկ",
+        "text": "Ներեցեք, կարո՞ղ եք ասել, որտեղ է գտնվում Հանրապետության հրապարակը:",
+        "translation": "Excusez-moi, pourriez-vous me dire où se trouve la Place de la République ?",
+        "audio": "../audio/armenian/dialogue3-1.mp3"
+      },
+      {
+        "speaker": "Անցորդ",
+        "text": "Այո, իհարկե: Գնացեք ուղիղ այս փողոցով, հետո թեքվեք ձախ:",
+        "translation": "Oui, bien sûr. Allez tout droit dans cette rue, puis tournez à gauche.",
+        "audio": "../audio/armenian/dialogue3-2.mp3"
+      },
+      {
+        "speaker": "Զբոսաշրջիկ",
+        "text": "Հեռո՞ւ է այն:",
+        "translation": "Est-ce loin ?",
+        "audio": "../audio/armenian/dialogue3-3.mp3"
+      },
+      {
+        "speaker": "Անցորդ",
+        "text": "Ոչ, մոտավորապես 10 րոպե ոտքով:",
+        "translation": "Non, c'est à environ 10 minutes à pied.",
+        "audio": "../audio/armenian/dialogue3-4.mp3"
+      },
+      {
+        "speaker": "Զբոսաշրջիկ",
+        "text": "Շատ շնորհակալություն:",
+        "translation": "Merci beaucoup !",
+        "audio": "../audio/armenian/dialogue3-5.mp3"
+      },
+      {
+        "speaker": "Անցորդ",
+        "text": "Խնդրեմ: Հաճելի զբոսանք:",
+        "translation": "De rien. Bonne promenade !",
+        "audio": "../audio/armenian/dialogue3-6.mp3"
+      }
+    ]
+  }
+]

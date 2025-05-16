@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre le Russe | LinguaStart</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lessons.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+</head>
+<body class="russian-theme">
+    <header>
+        <div class="logo">
+            <h1>LinguaStart</h1>
+            <p>Apprenez le russe en partant de zéro</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="#" class="active">Russe</a></li>
+                <li><a href="../armenian/index.html">Arménien</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="lesson-container">
+        <section class="lesson-header">
+            <h1>Apprendre le Russe</h1>
+            <p>Bienvenue dans votre parcours d'apprentissage du russe ! Suivez les modules ci-dessous pour progresser étape par étape, de l'alphabet aux conversations courantes.</p>
+        </section>
+
+        <section class="modules-nav">
+            <h2>Modules d'apprentissage</h2>
+            <div class="modules-list">
+                <div class="module-item active" onclick="window.location.href='alphabet.html'">
+                    <h3>Module 1: Alphabet Cyrillique</h3>
+                    <p>Apprenez à reconnaître et prononcer les lettres de l'alphabet cyrillique.</p>
+                </div>
+                <div class="module-item" onclick="window.location.href='basic-vocabulary.html'">
+                    <h3>Module 2: Vocabulaire de Base</h3>
+                    <p>Les mots essentiels pour commencer à communiquer en russe.</p>
+                </div>
+                <div class="module-item" onclick="window.location.href='common-phrases.html'">
+                    <h3>Module 3: Phrases Courantes</h3>
+                    <p>Expressions utiles pour les situations quotidiennes.</p>
+                </div>
+                <div class="module-item" onclick="window.location.href='grammar-basics.html'">
+                    <h3>Module 4: Bases de Grammaire</h3>
+                    <p>Introduction aux structures grammaticales fondamentales.</p>
+                </div>
+                <div class="module-item" onclick="window.location.href='conversation.html'">
+                    <h3>Module 5: Conversation</h3>
+                    <p>Dialogues simples pour pratiquer vos compétences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="lesson-content">
+            <div class="lesson-section">
+                <h2>Pourquoi apprendre le russe ?</h2>
+                <p>Le russe est parlé par plus de 260 millions de personnes dans le monde. C'est l'une des six langues officielles des Nations Unies et la langue officielle de la Russie, du Bélarus, du Kazakhstan et du Kirghizistan.</p>
+                <p>Voici quelques bonnes raisons d'apprendre le russe :</p>
+                <ul>
+                    <li>Découvrir une riche culture littéraire (Tolstoï, Dostoïevski, Tchekhov...)</li>
+                    <li>Améliorer vos perspectives professionnelles</li>
+                    <li>Voyager plus facilement dans les pays russophones</li>
+                    <li>Accéder à des contenus originaux (films, musique, sites web)</li>
+                    <li>Développer vos capacités cognitives</li>
+                </ul>
+            </div>
+
+            <div class="lesson-section">
+                <h2>Notre approche d'apprentissage</h2>
+                <p>Notre méthode d'apprentissage du russe est conçue pour être :</p>
+                <ul>
+                    <li><strong>Progressive</strong> - Commencez par les bases et avancez à votre rythme</li>
+                    <li><strong>Interactive</strong> - Pratiquez avec des exercices et des quiz</li>
+                    <li><strong>Pratique</strong> - Concentrez-vous sur le vocabulaire et les phrases utiles au quotidien</li>
+                    <li><strong>Complète</strong> - Couvrez tous les aspects de la langue : lecture, écriture, compréhension et expression</li>
+                </ul>
+                <p>Commencez dès maintenant avec le Module 1 pour découvrir l'alphabet cyrillique !</p>
+                <div class="cta-container">
+                    <a href="alphabet.html" class="btn primary">Commencer avec l'alphabet</a>
+                </div>
+            </div>
+
+            <div class="lesson-section">
+                <h2>Conseils pour réussir</h2>
+                <div class="tips-container">
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Régularité</h3>
+                        <p>Pratiquez un peu chaque jour plutôt que beaucoup en une seule fois.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-headphones"></i></div>
+                        <h3>Immersion</h3>
+                        <p>Écoutez des podcasts, des chansons ou regardez des films en russe.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-comments"></i></div>
+                        <h3>Pratique</h3>
+                        <p>Essayez de parler dès que possible, même si vous faites des erreurs.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-book-reader"></i></div>
+                        <h3>Lecture</h3>
+                        <p>Commencez par des textes simples et progressez vers des contenus plus complexes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>LinguaStart</h2>
+                <p>Apprenez le russe et l'arménien facilement</p>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="#">Russe</a></li>
+                    <li><a href="../armenian/index.html">Arménien</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: contact@linguastart.fr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LinguaStart. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Firebase -->
+    <script src="../js/firebase-config.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/firebase-storage.js"></script>
+    <script src="../js/firebase-sync.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

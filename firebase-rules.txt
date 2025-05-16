@@ -1,0 +1,81 @@
+// Règles de sécurité Firestore
+// À copier dans la console Firebase
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Règles pour les utilisateurs
+    match /users/{userId} {
+      // Un utilisateur peut lire et écrire ses propres données
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Collections imbriquées pour les données utilisateur
+      match /spacedRepetition/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      match /statistics/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      match /quizResults/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      match /progress/{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    
+    // Règles pour les données publiques
+    match /publicData/{document=**} {
+      // Tout le monde peut lire les données publiques
+      allow read: if true;
+      // Seuls les administrateurs peuvent écrire
+      allow write: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+  }
+}
+
+// Règles de sécurité Storage
+// À copier dans la console Firebase
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Fichiers audio publics
+    match /audio/{language}/{category}/{file} {
+      // Tout le monde peut lire les fichiers audio
+      allow read: if true;
+      // Seuls les administrateurs peuvent écrire
+      allow write: if request.auth != null && 
+                    request.resource.size < 10 * 1024 * 1024 && // Limite de 10MB
+                    (request.resource.contentType.matches('audio/.*') || 
+                     request.resource.contentType.matches('application/json')) &&
+                    exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+                    get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // Fichiers de données publics
+    match /data/{language}/{file} {
+      // Tout le monde peut lire les fichiers de données
+      allow read: if true;
+      // Seuls les administrateurs peuvent écrire
+      allow write: if request.auth != null && 
+                    request.resource.size < 5 * 1024 * 1024 && // Limite de 5MB
+                    request.resource.contentType.matches('application/json') &&
+                    exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+                    get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // Avatars utilisateurs
+    match /users/{userId}/avatar {
+      // L'utilisateur peut lire et écrire son propre avatar
+      allow read: if true; // Les avatars sont publics
+      allow write: if request.auth != null && 
+                    request.auth.uid == userId &&
+                    request.resource.size < 2 * 1024 * 1024 && // Limite de 2MB
+                    request.resource.contentType.matches('image/.*');
+    }
+  }
+}

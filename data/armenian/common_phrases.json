@@ -1,0 +1,74 @@
+[
+  {
+    "front": "Ինչպե՞ս եք կոչվում:",
+    "back": "Comment vous appelez-vous?",
+    "example": "Ինչպե՞ս եք կոչվում: Իմ անունը Պիեռ է:",
+    "audio": "../audio/armenian/inchpes-ek-kochvum.mp3"
+  },
+  {
+    "front": "Իմ անունը ... է:",
+    "back": "Je m'appelle...",
+    "example": "Իմ անունը Անի է:",
+    "audio": "../audio/armenian/im-anuny.mp3"
+  },
+  {
+    "front": "Որտեղի՞ց եք:",
+    "back": "D'où venez-vous?",
+    "example": "Որտեղի՞ց եք: Ես Ֆրանսիայից եմ:",
+    "audio": "../audio/armenian/vorteghits-ek.mp3"
+  },
+  {
+    "front": "Ես Ֆրանսիայից եմ:",
+    "back": "Je viens de France.",
+    "example": "Ես Ֆրանսիայից եմ: Իսկ դո՞ւք:",
+    "audio": "../audio/armenian/yes-fransiayits-em.mp3"
+  },
+  {
+    "front": "Ես չեմ հասկանում:",
+    "back": "Je ne comprends pas.",
+    "example": "Ներեցեք, ես չեմ հասկանում:",
+    "audio": "../audio/armenian/yes-chem-haskanum.mp3"
+  },
+  {
+    "front": "Խնդրում եմ, ավելի դանդաղ խոսեք:",
+    "back": "Parlez plus lentement, s'il vous plaît.",
+    "example": "Խնդրում եմ, ավելի դանդաղ խոսեք: Ես սովորում եմ հայերեն:",
+    "audio": "../audio/armenian/khndrum-em-aveli-dandagh.mp3"
+  },
+  {
+    "front": "Ճաշացուցակը, խնդրեմ:",
+    "back": "Le menu, s'il vous plaît?",
+    "example": "Բարև Ձեզ: Ճաշացուցակը, խնդրեմ:",
+    "audio": "../audio/armenian/chashatsutsakuh-khndrem.mp3"
+  },
+  {
+    "front": "Ես կցանկանայի պատվիրել...",
+    "back": "Je voudrais commander...",
+    "example": "Ես կցանկանայի պատվիրել խորոված և գինի:",
+    "audio": "../audio/armenian/yes-ktsankanai-patvirel.mp3"
+  },
+  {
+    "front": "Հաշիվը, խնդրեմ:",
+    "back": "L'addition, s'il vous plaît.",
+    "example": "Հաշիվը, խնդրեմ: Շնորհակալություն:",
+    "audio": "../audio/armenian/hashivuh-khndrem.mp3"
+  },
+  {
+    "front": "Որտե՞ղ է գտնվում...",
+    "back": "Où se trouve...?",
+    "example": "Որտե՞ղ է գտնվում Հանրապետության հրապարակը:",
+    "audio": "../audio/armenian/vortegh-e-gtnvum.mp3"
+  },
+  {
+    "front": "Ինչպե՞ս կարող եմ հասնել...",
+    "back": "Comment aller à...?",
+    "example": "Ինչպե՞ս կարող եմ հասնել թանգարան:",
+    "audio": "../audio/armenian/inchpes-karogh-em-hasnel.mp3"
+  },
+  {
+    "front": "Որքա՞ն արժե տոմսը:",
+    "back": "Combien coûte le billet?",
+    "example": "Որքա՞ն արժե տոմսը դեպի Գյումրի:",
+    "audio": "../audio/armenian/vorkan-arzhe-tomsuh.mp3"
+  }
+]

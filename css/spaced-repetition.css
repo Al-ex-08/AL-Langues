@@ -1,0 +1,109 @@
+/**
+ * LinguaStart - Application d'apprentissage des langues russe et arménienne
+ * Styles pour le système de révision espacée
+ */
+
+/* Options de révision */
+.revision-options {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.revision-time-options,
+.revision-level-options {
+    margin-bottom: 15px;
+}
+
+.revision-options h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.time-buttons,
+.level-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.time-btn,
+.level-btn {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.time-btn:hover,
+.level-btn:hover {
+    background-color: #d0d0d0;
+}
+
+.time-btn.active,
+.level-btn.active {
+    background-color: #4a76a8;
+    color: white;
+}
+
+/* Session info */
+.session-info {
+    background-color: #e8f0fe;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.session-info p {
+    margin: 0;
+}
+
+/* Timer de session */
+.session-timer {
+    background-color: #4a76a8;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.armenian-theme .session-timer {
+    background-color: #b74f6f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .time-buttons,
+    .level-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .time-btn,
+    .level-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Styles spécifiques pour le thème russe */
+.russian-theme .time-btn.active,
+.russian-theme .level-btn.active {
+    background-color: #4a76a8;
+}
+
+/* Styles spécifiques pour le thème arménien */
+.armenian-theme .time-btn.active,
+.armenian-theme .level-btn.active {
+    background-color: #b74f6f;
+}

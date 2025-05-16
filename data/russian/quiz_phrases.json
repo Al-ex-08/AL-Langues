@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur les phrases courantes en russe",
+  "questions": [
+    {
+      "question": "Comment dit-on 'Comment vous appelez-vous?' en russe?",
+      "options": ["Откуда вы?", "Как вас зовут?", "Меня зовут...", "Я не понимаю."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que signifie 'Я из Франции.'?",
+      "options": ["Je suis français.", "Je viens de France.", "Je parle français.", "J'aime la France."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment demander le menu au restaurant en russe?",
+      "options": ["Счёт, пожалуйста.", "Я хотел бы заказать...", "Можно меню, пожалуйста?", "Сколько стоит?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Je ne comprends pas.' en russe?",
+      "options": ["Я не понимаю.", "Говорите медленнее.", "Я из Франции.", "Как вас зовут?"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que signifie 'Говорите медленнее, пожалуйста.'?",
+      "options": ["Pouvez-vous répéter, s'il vous plaît?", "Je ne parle pas russe.", "Parlez plus lentement, s'il vous plaît.", "Excusez-moi, je ne comprends pas."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment demander l'addition au restaurant en russe?",
+      "options": ["Можно меню, пожалуйста?", "Я хотел бы заказать...", "Сколько стоит?", "Счёт, пожалуйста."],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Comment demander 'Où se trouve...?' en russe?",
+      "options": ["Как добраться до...?", "Где находится...?", "Сколько стоит...?", "Что это такое?"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que signifie 'Сколько стоит билет?'?",
+      "options": ["Où est le guichet?", "À quelle heure part le train?", "Combien coûte le billet?", "Quand arrive le bus?"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Comment dit-on 'Je voudrais commander...' en russe?",
+      "options": ["Я хотел бы заказать...", "Можно меню, пожалуйста?", "Счёт, пожалуйста.", "Сколько стоит?"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Comment demander 'Comment aller à...?' en russe?",
+      "options": ["Где находится...?", "Сколько стоит...?", "Как добраться до...?", "Что это такое?"],
+      "correctAnswer": 2
+    }
+  ]
+}

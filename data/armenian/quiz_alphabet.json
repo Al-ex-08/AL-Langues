@@ -1,0 +1,55 @@
+{
+  "title": "Quiz sur l'alphabet arménien",
+  "questions": [
+    {
+      "question": "Quelle est la prononciation de la lettre 'Ա'?",
+      "options": ["[b]", "[a]", "[g]", "[d]"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Բ'?",
+      "options": ["[b]", "[p]", "[d]", "[g]"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Գ'?",
+      "options": ["[d]", "[k]", "[g]", "[v]"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quelle lettre arménienne se prononce [d]?",
+      "options": ["Բ", "Գ", "Դ", "Ե"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Ե'?",
+      "options": ["[a]", "[e]/[je]", "[i]", "[o]"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de lettres compte l'alphabet arménien?",
+      "options": ["33", "36", "39", "42"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "En quelle année l'alphabet arménien a-t-il été créé?",
+      "options": ["301", "405", "501", "701"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qui a créé l'alphabet arménien?",
+      "options": ["Grégoire l'Illuminateur", "Mesrop Machtots", "Tigrane le Grand", "Komitas"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la prononciation de la lettre 'Ո'?",
+      "options": ["[a]", "[e]", "[i]", "[o]/[vo]"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "L'alphabet arménien s'écrit de...",
+      "options": ["gauche à droite", "droite à gauche", "haut en bas", "bas en haut"],
+      "correctAnswer": 0
+    }
+  ]
+}
